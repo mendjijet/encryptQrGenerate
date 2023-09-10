@@ -8,10 +8,10 @@
 		<version>3.1.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.jet.QrcodeEncrypted</groupId>
-	<artifactId>QrCodeEncrypt</artifactId>
+	<groupId>com.jet.qrcodeEncrypted</groupId>
+	<artifactId>qrCodeEncrypt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>QrCodeEncrypt</name>
+	<name>qrCodeEncrypt</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -40,6 +40,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.librepdf</groupId>
+			<artifactId>openpdf</artifactId>
+			<version>1.3.8</version>
 		</dependency>
 	</dependencies>
 
